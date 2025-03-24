@@ -49,21 +49,21 @@ During this lab, participants are allowed to make use of the IFC and TTL files i
 - [A Visual Support Tool for Decision-Making over Federated Building Information](https://link.springer.com/chapter/10.1007/978-3-031-37189-9_32)
 
 ## KLO 1 Understand the basics of semantic web technologies to represent building information in graphs
-[Presentation]()
+[Presentation](https://github.com/AlexDonkers/Summit2025/raw/refs/heads/main/LAB4_Web-based%20Building%20Information%20Modeling/Presentation.pptx)
 Activity: Open the OpenFlat.ttl in GraphDB. Explore the Graph in the Visual Explorer.
 Activity: Run a query in the SPARQL tab.
 Activity: Draw a graph containing the information related to your exercise. 
 Activity: Create a small TTL file with the graph. Take a look at the ExampleTriples.ttl file in the [Resources](https://github.com/AlexDonkers/Summit2025/tree/main/LAB4_Web-based%20Building%20Information%20Modeling/Resources) folder.
 
 ## KLO 2 Create and apply ontologies, introduction to the basics of querying via both SPARQL and large language models 
-[Presentation]()
+[Presentation](https://github.com/AlexDonkers/Summit2025/raw/refs/heads/main/LAB4_Web-based%20Building%20Information%20Modeling/Presentation.pptx)
 Activity: Draw an ontology using the information related to your exercise.
 Activity: Formalize the ontology in Protégé. 
 Activity: Use the ontology to enrich your TTL. 
 Activity: Load the TTL in GraphDB. 
 
 ## KLO 3 Understand how Large Language Models could be used in combination with linked building data
-[Presentation]()
+[Presentation](https://github.com/AlexDonkers/Summit2025/raw/refs/heads/main/LAB4_Web-based%20Building%20Information%20Modeling/Presentation.pptx)
 Activity: Load the OpenFlat in [LD-BIM](https://ld-bim.web.app/). Also load all your TTL data. 
 Activity: Copy one of the queries from GraphDB into LD-BIM. Do you get the same results?
 Activity: Take a text in natural language, and prompt it to one of the LLMs. Ask to convert it to a TTL format. (zero-shot prompting)
