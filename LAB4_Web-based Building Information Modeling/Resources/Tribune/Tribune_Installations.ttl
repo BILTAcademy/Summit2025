@@ -1,0 +1,2307 @@
+# baseURI: https://linkedbuildingdata.net/ifc/resources20250224_085952/
+@prefix inst: <https://linkedbuildingdata.net/ifc/resources20250224_085952/> .
+@prefix rdf:  <https://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:  <https://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <https://www.w3.org/2001/XMLSchema#> .
+@prefix bot:  <https://w3id.org/bot#> .
+@prefix beo:  <https://pi.pauwel.be/voc/buildingelement#> .
+@prefix mep:  <https://pi.pauwel.be/voc/distributionelement#> .
+@prefix geom:  <https://w3id.org/geom#> .
+@prefix props:  <https://w3id.org/props#> .
+
+inst: rdf:type <http://www.w3.org/2002/07/owl#Ontology> .
+
+inst:site_102248
+	a bot:Site ;
+	rdfs:label "Default"^^xsd:string ;
+	bot:hasGuid "807fb87baa6f4c89a2892d40c80ada16"^^xsd:string ;
+	props:hasCompressedGuid "20VxXxgczCYQA9BK382jeM"^^xsd:string ;
+	bot:hasBuilding inst:building_7 . 
+
+inst:building_7
+	a bot:Building ;
+	rdfs:label "Tribune"^^xsd:string ;
+	bot:hasGuid "807fb87baa6f4c89a2892d40c80ada15"^^xsd:string ;
+	props:hasCompressedGuid "20VxXxgczCYQA9BK382jeL"^^xsd:string ;
+	bot:hasStorey inst:storey_21937 ;
+	bot:hasStorey inst:storey_21938 ;
+	bot:hasStorey inst:storey_21939 ;
+	bot:hasStorey inst:storey_21940 ;
+	bot:hasStorey inst:storey_21941 ;
+	bot:hasStorey inst:storey_21942 ;
+	props:Islandmarked "False"^^xsd:int ;
+	props:Numberofstoreys "10"^^xsd:int . 
+
+inst:storey_21937
+	a bot:Storey ;
+	rdfs:label "00 begane grond"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f37032d2a"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt0oqg"^^xsd:string ;
+	bot:containsElement inst:element_15 ;
+	bot:containsElement inst:element_101509 ;
+	bot:containsElement inst:element_101538 ;
+	bot:containsElement inst:element_101574 ;
+	bot:containsElement inst:element_101585 ;
+	bot:containsElement inst:element_68832 ;
+	bot:containsElement inst:element_70049 ;
+	bot:containsElement inst:element_101594 ;
+	bot:containsElement inst:element_101604 ;
+	bot:containsElement inst:element_16690 ;
+	bot:containsElement inst:element_19239 ;
+	bot:containsElement inst:element_101612 ;
+	bot:containsElement inst:element_101620 ;
+	bot:containsElement inst:element_70052 ;
+	bot:containsElement inst:element_91569 ;
+	bot:containsElement inst:element_101646 ;
+	bot:containsElement inst:element_101679 ;
+	bot:containsElement inst:element_101689 ;
+	bot:containsElement inst:element_101699 ;
+	bot:containsElement inst:element_101707 ;
+	bot:containsElement inst:element_101715 ;
+	bot:containsElement inst:element_101723 ;
+	bot:containsElement inst:element_101731 ;
+	bot:containsElement inst:element_101755 ;
+	bot:containsElement inst:element_19244 ;
+	bot:containsElement inst:element_101763 ;
+	bot:containsElement inst:element_19249 ;
+	bot:containsElement inst:element_101771 ;
+	bot:containsElement inst:element_21943 ;
+	bot:containsElement inst:element_21953 ;
+	bot:containsElement inst:element_101799 ;
+	bot:containsElement inst:element_91788 ;
+	bot:containsElement inst:element_19254 ;
+	bot:containsElement inst:element_101808 ;
+	bot:containsElement inst:element_21963 ;
+	bot:containsElement inst:element_101816 ;
+	bot:containsElement inst:element_21519 ;
+	bot:containsElement inst:element_102101 ;
+	bot:containsElement inst:element_101824 ;
+	bot:containsElement inst:element_101832 ;
+	bot:containsElement inst:element_91791 ;
+	bot:containsElement inst:element_92832 ;
+	bot:containsElement inst:element_101843 ;
+	bot:containsElement inst:element_92835 ;
+	bot:containsElement inst:element_101862 ;
+	bot:containsElement inst:element_101871 ;
+	bot:containsElement inst:element_93554 ;
+	bot:containsElement inst:element_101879 ;
+	bot:containsElement inst:element_94899 ;
+	bot:containsElement inst:element_94908 ;
+	bot:containsElement inst:element_101915 ;
+	bot:containsElement inst:element_22094 ;
+	bot:containsElement inst:element_96507 ;
+	bot:containsElement inst:element_96510 ;
+	bot:containsElement inst:element_96516 ;
+	bot:containsElement inst:element_22104 ;
+	bot:containsElement inst:element_36832 ;
+	bot:containsElement inst:element_37019 ;
+	bot:containsElement inst:element_51813 ;
+	bot:containsElement inst:element_51817 ;
+	bot:containsElement inst:element_66434 ;
+	bot:containsElement inst:element_97314 ;
+	bot:containsElement inst:element_97317 ;
+	bot:containsElement inst:element_101962 ;
+	bot:containsElement inst:element_66621 ;
+	bot:containsElement inst:element_101978 ;
+	bot:containsElement inst:element_98199 ;
+	bot:containsElement inst:element_98202 ;
+	bot:containsElement inst:element_101986 ;
+	bot:containsElement inst:element_101994 ;
+	bot:containsElement inst:element_98205 ;
+	bot:containsElement inst:element_99400 ;
+	bot:containsElement inst:element_102003 ;
+	bot:containsElement inst:element_100495 ;
+	bot:containsElement inst:element_102019 ;
+	bot:containsElement inst:element_66748 ;
+	bot:containsElement inst:element_101466 ;
+	bot:containsElement inst:element_102035 ;
+	bot:containsElement inst:element_101469 ;
+	bot:containsElement inst:element_101472 ;
+	bot:containsElement inst:element_21524 ;
+	bot:containsElement inst:element_21670 ;
+	bot:containsElement inst:element_21673 ;
+	bot:containsElement inst:element_21676 ;
+	bot:containsElement inst:element_21679 ;
+	bot:containsElement inst:element_102043 ;
+	bot:containsElement inst:element_101475 ;
+	bot:containsElement inst:element_102052 ;
+	bot:containsElement inst:element_101478 ;
+	bot:containsElement inst:element_21805 ;
+	bot:containsElement inst:element_21934 ;
+	bot:containsElement inst:element_102061 ;
+	bot:containsElement inst:element_102069 ;
+	bot:containsElement inst:element_101481 ;
+	bot:containsElement inst:element_102077 ;
+	bot:containsElement inst:element_102085 ;
+	bot:containsElement inst:element_102093 ;
+	props:Aboveground "False"^^xsd:int ;
+	props:Name "00 begane grond"^^xsd:string ;
+	props:Name "00 begane grond"^^xsd:string . 
+
+inst:storey_21938
+	a bot:Storey ;
+	rdfs:label "01 eerste verdieping"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f37032c56"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt0onM"^^xsd:string ;
+	bot:containsElement inst:element_101487 ;
+	bot:containsElement inst:element_101498 ;
+	bot:containsElement inst:element_67329 ;
+	bot:containsElement inst:element_68124 ;
+	bot:containsElement inst:element_101519 ;
+	bot:containsElement inst:element_101528 ;
+	bot:containsElement inst:element_68127 ;
+	bot:containsElement inst:element_68829 ;
+	bot:containsElement inst:element_101636 ;
+	bot:containsElement inst:element_101655 ;
+	bot:containsElement inst:element_101663 ;
+	bot:containsElement inst:element_101671 ;
+	bot:containsElement inst:element_101853 ;
+	bot:containsElement inst:element_101923 ;
+	bot:containsElement inst:element_96504 ;
+	bot:containsElement inst:element_101932 ;
+	bot:containsElement inst:element_101941 ;
+	bot:containsElement inst:element_101951 ;
+	bot:containsElement inst:element_96513 ;
+	bot:containsElement inst:element_96519 ;
+	bot:containsElement inst:element_96522 ;
+	bot:containsElement inst:element_96525 ;
+	bot:containsElement inst:element_97308 ;
+	bot:containsElement inst:element_97311 ;
+	bot:containsElement inst:element_97320 ;
+	bot:containsElement inst:element_102011 ;
+	bot:containsElement inst:element_102027 ;
+	bot:containsElement inst:element_101463 ;
+	props:Name "01 eerste verdieping"^^xsd:string ;
+	props:Name "01 eerste verdieping"^^xsd:string ;
+	props:Aboveground "False"^^xsd:int . 
+
+inst:storey_21939
+	a bot:Storey ;
+	rdfs:label "02 tweede verdieping"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f37032b7f"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt0oj$"^^xsd:string ;
+	bot:containsElement inst:element_101747 ;
+	bot:containsElement inst:element_101781 ;
+	bot:containsElement inst:element_101790 ;
+	bot:containsElement inst:element_101897 ;
+	bot:containsElement inst:element_94902 ;
+	bot:containsElement inst:element_101907 ;
+	bot:containsElement inst:element_94905 ;
+	bot:containsElement inst:element_101484 ;
+	props:Name "02 tweede verdieping"^^xsd:string ;
+	props:Name "02 tweede verdieping"^^xsd:string ;
+	props:Aboveground "False"^^xsd:int . 
+
+inst:storey_21940
+	a bot:Storey ;
+	rdfs:label "03 derde verdieping"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f37032b71"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt0ojn"^^xsd:string ;
+	bot:containsElement inst:element_101548 ;
+	bot:containsElement inst:element_101556 ;
+	bot:containsElement inst:element_101565 ;
+	props:Aboveground "False"^^xsd:int ;
+	props:Name "03 derde verdieping"^^xsd:string ;
+	props:Name "03 derde verdieping"^^xsd:string . 
+
+inst:storey_21941
+	a bot:Storey ;
+	rdfs:label "07 zevende verdieping"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f37032b69"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt0ojf"^^xsd:string ;
+	bot:containsElement inst:element_101628 ;
+	props:Aboveground "False"^^xsd:int ;
+	props:Name "07 zevende verdieping"^^xsd:string ;
+	props:Name "07 zevende verdieping"^^xsd:string . 
+
+inst:storey_21942
+	a bot:Storey ;
+	rdfs:label "09 negende verdieping"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f37032b6d"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt0ojj"^^xsd:string ;
+	bot:containsElement inst:element_101739 ;
+	bot:containsElement inst:element_101887 ;
+	bot:containsElement inst:element_94896 ;
+	bot:containsElement inst:element_101970 ;
+	props:Aboveground "False"^^xsd:int ;
+	props:Name "09 negende verdieping"^^xsd:string ;
+	props:Name "09 negende verdieping"^^xsd:string . 
+
+inst:element_15
+	a bot:Element ;
+	rdfs:label "00_KIET-0-punt:00_KIET-0-punt:1312392"^^xsd:string ;
+	bot:hasGuid "6f49ee3b7baa48019217c67f3704d911"^^xsd:string ;
+	props:hasCompressedGuid "1lIUuxUwf80P8Nndyt1DaH"^^xsd:string ;
+	props:Reference "00_KIET-0-punt"^^xsd:string ;
+	props:Reference "00_KIET-0-punt"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "0"^^xsd:int ;
+	props:Green "0"^^xsd:int ;
+	props:Blue "0"^^xsd:int . 
+
+inst:element_16690
+	a bot:Element ;
+	rdfs:label "VE_Valve_Round Fire Motor_MEPcontent_RF Technologies_CR2 BFN(T):Brandklep CR2 BFN(T) motorbediend_500:2236998"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254d99d"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLDcT"^^xsd:string ;
+	props:Manufacturer "RF Technologies"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_19239
+	a bot:Element ;
+	rdfs:label "VE_Valve_Round Fire Motor_MEPcontent_RF Technologies_CR2 BFN(T):Brandklep CR2 BFN(T) motorbediend_500:2237052"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254d9a7"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLDcd"^^xsd:string ;
+	props:Manufacturer "RF Technologies"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_19244
+	a bot:Element ;
+	rdfs:label "VE_Valve_Round Fire Motor_MEPcontent_RF Technologies_CR2 BFN(T):Brandklep CR2 BFN(T) motorbediend_500:2452121"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cb998"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBcO"^^xsd:string ;
+	props:Manufacturer "RF Technologies"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_19249
+	a bot:Element ;
+	rdfs:label "VE_Valve_Round Fire Motor_MEPcontent_RF Technologies_CR2 BFN(T):Brandklep CR2 BFN(T) motorbediend_500:2452223"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cb9fe"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBd_"^^xsd:string ;
+	props:Manufacturer "RF Technologies"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:Reference "Brandklep CR2 BFN(T) motorbediend_500"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_19254
+	a bot:Element ;
+	rdfs:label "VE_Valve_Round Fire Motor_MEPcontent_RF Technologies_CR60-1S BFL(T):Brandklep CR60-1S BFL(T) motorbediend_250:2453141"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd94"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBsK"^^xsd:string ;
+	props:Manufacturer "RF Technologies"^^xsd:string ;
+	props:Reference "Brandklep CR60-1S BFL(T) motorbediend_250"^^xsd:string ;
+	props:Reference "Brandklep CR60-1S BFL(T) motorbediend_250"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_21519
+	a bot:Element ;
+	rdfs:label "VE_Valve_Round Fire Motor_MEPcontent_RF Technologies_CR60-1S BFL(T):Brandklep CR60-1S BFL(T) motorbediend_250:2454107"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4ca15a"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJA5Q"^^xsd:string ;
+	props:Manufacturer "RF Technologies"^^xsd:string ;
+	props:Reference "Brandklep CR60-1S BFL(T) motorbediend_250"^^xsd:string ;
+	props:Reference "Brandklep CR60-1S BFL(T) motorbediend_250"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_21524
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3303582"^^xsd:string ;
+	bot:hasGuid "01e14920450849b6b991c812fa8a81eb"^^xsd:string ;
+	props:hasCompressedGuid "01uKaWHGX9jhcHo1BwYe7h"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21670
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3303652"^^xsd:string ;
+	bot:hasGuid "01e14920450849b6b991c812fa8a8191"^^xsd:string ;
+	props:hasCompressedGuid "01uKaWHGX9jhcHo1BwYe6H"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21673
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3303665"^^xsd:string ;
+	bot:hasGuid "01e14920450849b6b991c812fa8a8184"^^xsd:string ;
+	props:hasCompressedGuid "01uKaWHGX9jhcHo1BwYe64"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21676
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3303673"^^xsd:string ;
+	bot:hasGuid "01e14920450849b6b991c812fa8a818c"^^xsd:string ;
+	props:hasCompressedGuid "01uKaWHGX9jhcHo1BwYe6C"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21679
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3304011"^^xsd:string ;
+	bot:hasGuid "01e14920450849b6b991c812fa8a833e"^^xsd:string ;
+	props:hasCompressedGuid "01uKaWHGX9jhcHo1BwYeC_"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21805
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3307189"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306d7e"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6r_"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21934
+	a bot:Element ;
+	rdfs:label "BU_Opening_SymbolicCircular_FB_MEPcontent:BU_Opening_SymbolicCircular_FB_MEPcontent:3307193"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306d72"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6ro"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:Reference "BU_Opening_SymbolicCircular_FB_MEPcontent"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "230"^^xsd:int ;
+	props:Green "230"^^xsd:int ;
+	props:Blue "230"^^xsd:int . 
+
+inst:element_21943
+	a bot:Element ;
+	rdfs:label "Duct Insulation:Default:2453056"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd41"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBr1"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_21953
+	a bot:Element ;
+	rdfs:label "Duct Insulation:Default:2453059"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd42"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBr2"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_21963
+	a bot:Element ;
+	rdfs:label "Duct Insulation:Default:2453144"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd99"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBsP"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_22094
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:2834236"^^xsd:string ;
+	bot:hasGuid "c06ef364d544459498d4c2c71be572db"^^xsd:string ;
+	props:hasCompressedGuid "30RlDarKH5b9ZKmiSRvNBR"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_22104
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3016777"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f62"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzY"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_36832
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3016778"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f61"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzX"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_37019
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3016797"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f76"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzs"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_51813
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3016798"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f75"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzr"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_51817
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3016819"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f58"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzO"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_66434
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3016820"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f5f"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzV"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_66621
+	a bot:Element ;
+	rdfs:label "Duct Insulation:Default:3278954"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3b97"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJkN"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:Reference "Default"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_66748
+	a bot:Element ;
+	rdfs:label "Pipe Insulation:Thermal:3283135"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b42"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIj2"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Reference "Thermal"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_67329
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2061277"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02940"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2b0"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_68124
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2061287"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea0297a"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2bw"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_68127
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2061748"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02f29"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2yf"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_68829
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2062120"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02db5"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2sr"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_68832
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:2229602"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254feb9"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLFwv"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_70049
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:2229613"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254feb6"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLFws"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_70052
+	a bot:Element ;
+	rdfs:label "M_Cap_Storz_MEPcontent_Generic:M_Cap_Storz_MEPcontent_Generic:2340405"^^xsd:string ;
+	bot:hasGuid "5432febb3c2442c2a0307c6c40b02002"^^xsd:string ;
+	props:hasCompressedGuid "1KClwxF2H2mg0mV6n0i202"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "M_Cap_Storz_MEPcontent_Generic"^^xsd:string ;
+	props:Reference "M_Cap_Storz_MEPcontent_Generic"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_91569
+	a bot:Element ;
+	rdfs:label "M_Bend_Circular_MEPcontent_Staal_3RS DN:M_Bend_Circular_MEPcontent_Staal_3RS DN:2340462"^^xsd:string ;
+	bot:hasGuid "5432febb3c2442c2a0307c6c40b02059"^^xsd:string ;
+	props:hasCompressedGuid "1KClwxF2H2mg0mV6n0i21P"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "M_Bend_Circular_MEPcontent_Staal_3RS DN"^^xsd:string ;
+	props:Reference "M_Bend_Circular_MEPcontent_Staal_3RS DN"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_91788
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:2453064"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd49"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBr9"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_91791
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:2459587"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4c54c2"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJ5J2"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_92832
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:2459592"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4c54c9"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJ5J9"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_92835
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:2459623"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4c54e6"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJ5Jc"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_93554
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2465248"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a325"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjACb"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_94896
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2465547"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a1ce"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA7E"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_94899
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2465551"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a1ca"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA7A"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_94902
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2465652"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a1b1"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA6n"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_94905
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:2465666"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a147"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA57"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_94908
+	a bot:Element ;
+	rdfs:label "SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S:SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S:2485553"^^xsd:string ;
+	bot:hasGuid "a48dae5684ae409c92ec24b036cc18e6"^^xsd:string ;
+	props:hasCompressedGuid "2aZQvMXAv0d9Bi9B0sp1Zc"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S"^^xsd:string ;
+	props:Reference "SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96504
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016430"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db91c5"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv75"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96507
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016434"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db91d9"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv7P"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96510
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016638"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9095"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv2L"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96513
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016644"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db90ef"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv3l"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96516
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016691"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db90d8"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv3O"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96519
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016697"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db90d2"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv3I"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96522
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3016745"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f02"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvy2"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_96525
+	a bot:Element ;
+	rdfs:label "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S:SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S:3016779"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f60"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzW"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S"^^xsd:string ;
+	props:Reference "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_97308
+	a bot:Element ;
+	rdfs:label "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S:SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S:3016799"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f74"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzq"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S"^^xsd:string ;
+	props:Reference "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_97311
+	a bot:Element ;
+	rdfs:label "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S:SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S:3016821"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9f5e"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsvzU"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S"^^xsd:string ;
+	props:Reference "SA_Bend_Circular_MEPcontent_DYKA PVC Binnenriolering_2S"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_97314
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:3041914"^^xsd:string ;
+	bot:hasGuid "084340d3184143f085d899dea64ae45e"^^xsd:string ;
+	props:hasCompressedGuid "08Gq3J6453y8NOcTwcIkHU"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_97317
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3171406"^^xsd:string ;
+	bot:hasGuid "dd3ae3677067408eb6ec5bd676828ba7"^^xsd:string ;
+	props:hasCompressedGuid "3TEkDdS6T0ZhRiMzPsWekd"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_97320
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:3279235"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3a7e"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJf_"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_98199
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:3279335"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3a1a"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJeQ"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_98202
+	a bot:Element ;
+	rdfs:label "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend:3279529"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3954"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJbK"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Reference "VE_Bend_Circular Flowing_MEPcontent_LUKA_Bend"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_98205
+	a bot:Element ;
+	rdfs:label "VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric:VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric:3280024"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3f65"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJzb"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:Reference "VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric"^^xsd:string ;
+	props:Reference "VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_99400
+	a bot:Element ;
+	rdfs:label "VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric:VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric:3280078"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3f33"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJyp"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:Reference "VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric"^^xsd:string ;
+	props:Reference "VE_Reducer_Circular Segmented_MEPcontent_LUKA_Centric"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_100495
+	a bot:Element ;
+	rdfs:label "VE_Tee_Circular Sharp_MEPcontent_LUKA_T piece:VE_Tee_Circular Sharp_MEPcontent_LUKA_T piece:3280234"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3e97"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJwN"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "VE_Tee_Circular Sharp_MEPcontent_LUKA_T piece"^^xsd:string ;
+	props:Reference "VE_Tee_Circular Sharp_MEPcontent_LUKA_T piece"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101463
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3283138"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b3f"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIi$"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101466
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3283142"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b3b"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIix"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101469
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3283204"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2af9"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIhv"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101472
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3303139"^^xsd:string ;
+	bot:hasGuid "01e14920450849b6b991c812fa8a8f96"^^xsd:string ;
+	props:hasCompressedGuid "01uKaWHGX9jhcHo1BwYe_M"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101475
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3306822"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306e8d"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6wD"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101478
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3306850"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306ea9"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6wf"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101481
+	a bot:Element ;
+	rdfs:label "SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S:SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S:3308063"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc11173061d4"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC67K"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S"^^xsd:string ;
+	props:Reference "SA_Tee_Composite Flowing_MEPcontent_DYKA PVC Binnenriolering_3S-1S-1S-1S"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101484
+	a bot:Element ;
+	rdfs:label "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S:3308071"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc11173061ec"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC67i"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Color "Color RGB 127-127-127"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:Reference "SA_Bend_Composite 2x45_MEPcontent_DYKA PVC Binnenriolering_2S-1S"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Red "127"^^xsd:int ;
+	props:Green "127"^^xsd:int ;
+	props:Blue "127"^^xsd:int . 
+
+inst:element_101487
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2061211"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02906"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2a6"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "686.73840741536"^^xsd:double ;
+	props:Invertelevation "-791.11062093857"^^xsd:double ;
+	props:Length "686.73840741536"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101498
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2061213"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02900"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2a0"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "7818.64564280689"^^xsd:double ;
+	props:Invertelevation "-219.391191360442"^^xsd:double ;
+	props:Length "7818.64564280689"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101509
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2061275"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02946"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2b6"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "2587.86653609199"^^xsd:double ;
+	props:Invertelevation "-826.788586327514"^^xsd:double ;
+	props:Length "2587.86653609199"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101519
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2061616"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02fad"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2_j"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "7818.1040401214"^^xsd:double ;
+	props:Invertelevation "-235.149421488369"^^xsd:double ;
+	props:Length "7818.1040401214"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101528
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2061636"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02fd9"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2$P"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "715.672905420369"^^xsd:double ;
+	props:Invertelevation "-780.638883895814"^^xsd:double ;
+	props:Length "715.672905420369"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101538
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2062035"^^xsd:string ;
+	bot:hasGuid "38dd83dfd3b1458ca8fae39daea02c4e"^^xsd:string ;
+	props:hasCompressedGuid "0utOFVqx55ZAZwuvske2nE"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "2234.29753747825"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "2234.29753747825"^^xsd:double ;
+	props:Invertelevation "-796.980905061347"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101548
+	a bot:Element ;
+	rdfs:label "Conduit with Fittings:E6132_Mantelbuis:2064315"^^xsd:string ;
+	bot:hasGuid "ae512ca0be4d4b4ea931d7e1ae760790"^^xsd:string ;
+	props:hasCompressedGuid "2kKIoWlarBJganr_6kTWUG"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "32946.3843749997"^^xsd:double ;
+	props:Length "32946.3843749997"^^xsd:double ;
+	props:Reference "E6132_Mantelbuis"^^xsd:string ;
+	props:Reference "E6132_Mantelbuis"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101556
+	a bot:Element ;
+	rdfs:label "Conduit with Fittings:E6132_Mantelbuis:2064316"^^xsd:string ;
+	bot:hasGuid "ae512ca0be4d4b4ea931d7e1ae760797"^^xsd:string ;
+	props:hasCompressedGuid "2kKIoWlarBJganr_6kTWUN"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "32946.3843749997"^^xsd:double ;
+	props:Length "32946.3843749997"^^xsd:double ;
+	props:Reference "E6132_Mantelbuis"^^xsd:string ;
+	props:Reference "E6132_Mantelbuis"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101565
+	a bot:Element ;
+	rdfs:label "Conduit with Fittings:E6132_Mantelbuis:2064317"^^xsd:string ;
+	bot:hasGuid "ae512ca0be4d4b4ea931d7e1ae760796"^^xsd:string ;
+	props:hasCompressedGuid "2kKIoWlarBJganr_6kTWUM"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "32946.3843749997"^^xsd:double ;
+	props:Length "32946.3843749997"^^xsd:double ;
+	props:Reference "E6132_Mantelbuis"^^xsd:string ;
+	props:Reference "E6132_Mantelbuis"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101574
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2229581"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254fe96"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLFwM"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "298.946695125864"^^xsd:double ;
+	props:Length "298.946695125864"^^xsd:double ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101585
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2229596"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254fe87"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLFw7"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "1972.49999999995"^^xsd:double ;
+	props:Length "1972.49999999995"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101594
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2229678"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254fe75"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLFvr"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "879.586364823452"^^xsd:double ;
+	props:Length "879.586364823452"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101604
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2229691"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254fe60"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLFvW"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "2767.49999999995"^^xsd:double ;
+	props:Length "2767.49999999995"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101612
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2237064"^^xsd:string ;
+	bot:hasGuid "be9cb9c9d64e4959bcdb6a56f254d953"^^xsd:string ;
+	props:hasCompressedGuid "2_dBd9rav9MRpRQbRoLDbJ"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "341.053304874121"^^xsd:double ;
+	props:Length "341.053304874121"^^xsd:double ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101620
+	a bot:Element ;
+	rdfs:label "Pipe Types:Staal_Vlampijp gelast gemenied:2340403"^^xsd:string ;
+	bot:hasGuid "5432febb3c2442c2a0307c6c40b02004"^^xsd:string ;
+	props:hasCompressedGuid "1KClwxF2H2mg0mV6n0i204"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Staal_Vlampijp gelast gemenied"^^xsd:string ;
+	props:Reference "Staal_Vlampijp gelast gemenied"^^xsd:string ;
+	props:Length "340.500000000014"^^xsd:double ;
+	props:Invertelevation "858.44999999999"^^xsd:double ;
+	props:Length "340.500000000014"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101628
+	a bot:Element ;
+	rdfs:label "Pipe Types:Staal_Vlampijp gelast gemenied:2340454"^^xsd:string ;
+	bot:hasGuid "5432febb3c2442c2a0307c6c40b02051"^^xsd:string ;
+	props:hasCompressedGuid "1KClwxF2H2mg0mV6n0i21H"^^xsd:string ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:Length "6760.9999999994"^^xsd:double ;
+	props:Invertelevation "1014.49999999999"^^xsd:double ;
+	props:Length "6760.9999999994"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "Staal_Vlampijp gelast gemenied"^^xsd:string ;
+	props:Reference "Staal_Vlampijp gelast gemenied"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101636
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2413239"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318ea2c"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36Eei"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "33671.1778435735"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "33671.1778435735"^^xsd:double ;
+	props:Invertelevation "-294.303864086988"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101646
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2414242"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318ee39"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36Euv"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "5730.93753729136"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Invertelevation "-626.800000000173"^^xsd:double ;
+	props:Length "5730.93753729136"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101655
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2414620"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e087"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36E27"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "33672.9643893163"^^xsd:double ;
+	props:Invertelevation "-296.090265935599"^^xsd:double ;
+	props:Length "33672.9643893163"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101663
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2414632"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e0b3"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36E2p"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Invertelevation "-289.906798935696"^^xsd:double ;
+	props:Length "33691.0"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "33691.0"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101671
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415028"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e12f"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36E4l"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "33674.9187732445"^^xsd:double ;
+	props:Invertelevation "-296.090265935462"^^xsd:double ;
+	props:Length "33674.9187732445"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101679
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415194"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e2c1"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36EB1"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "4623.4505552459"^^xsd:double ;
+	props:Length "4623.4505552459"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101689
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415202"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e2f9"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36EBv"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "888.609161278193"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "888.609161278193"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101699
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415240"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e213"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36E8J"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "5182.09287207178"^^xsd:double ;
+	props:Length "5182.09287207178"^^xsd:double ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101707
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415248"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e20b"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36E8B"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "1066.14366649187"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "1066.14366649187"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101715
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415350"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e26d"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36E9j"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000173"^^xsd:double ;
+	props:Length "1237.1408890354"^^xsd:double ;
+	props:Length "1237.1408890354"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101723
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415376"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e38b"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36EEB"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "5448.47501543225"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "5448.47501543225"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101731
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2415384"^^xsd:string ;
+	bot:hasGuid "fc37b04e1d1f4e48971c80aa8318e383"^^xsd:string ;
+	props:hasCompressedGuid "3yDx1E7HzEI9SSWAg36EE3"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "1404.67836717391"^^xsd:double ;
+	props:Length "1404.67836717391"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101739
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2443719"^^xsd:string ;
+	bot:hasGuid "df9b9fe9f94948e78e4aa93b1616e4ba"^^xsd:string ;
+	props:hasCompressedGuid "3Vcv$f_Kb8vuvAgJiM5kIw"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "7361.99999999999"^^xsd:double ;
+	props:Invertelevation "-170.396103068546"^^xsd:double ;
+	props:Length "7361.99999999999"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101747
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2443824"^^xsd:string ;
+	bot:hasGuid "df9b9fe9f94948e78e4aa93b1616e74d"^^xsd:string ;
+	props:hasCompressedGuid "3Vcv$f_Kb8vuvAgJiM5kTD"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "7251.99999999992"^^xsd:double ;
+	props:Invertelevation "-162.233764909039"^^xsd:double ;
+	props:Length "7251.99999999992"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101755
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2452058"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cb95b"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBbR"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "8165.10254037844"^^xsd:double ;
+	props:Length "8165.10254037844"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101763
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2452135"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cb9a6"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBcc"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:Length "3792.90000000004"^^xsd:double ;
+	props:Length "3792.90000000004"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101771
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2452255"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cb81e"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBWU"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "3662.21822729052"^^xsd:double ;
+	props:Length "3662.21822729052"^^xsd:double ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101781
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2453054"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd3f"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBq$"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "28384.9999999997"^^xsd:double ;
+	props:Length "28384.9999999997"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101790
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2453057"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd40"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBr0"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "28924.9999999997"^^xsd:double ;
+	props:Length "28924.9999999997"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101799
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2453062"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd47"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBr7"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "993.553304874124"^^xsd:double ;
+	props:Length "993.553304874124"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101808
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2453142"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cbd97"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJBsN"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "248.421674016041"^^xsd:double ;
+	props:Length "248.421674016041"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101816
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2454023"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4ca106"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJA46"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "2923.44462783927"^^xsd:double ;
+	props:Length "2923.44462783927"^^xsd:double ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101824
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2457466"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cac7b"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJAnx"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:Length "527.936623138681"^^xsd:double ;
+	props:Length "527.936623138681"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101832
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2459584"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4c54c1"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJ5J1"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "109.96100504061"^^xsd:double ;
+	props:Length "109.96100504061"^^xsd:double ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101843
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2459615"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4c54de"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJ5JU"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "966.59725676954"^^xsd:double ;
+	props:Length "966.59725676954"^^xsd:double ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101853
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:2464118"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4c4a77"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJ4ft"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "26790.0000000002"^^xsd:double ;
+	props:Length "26790.0000000002"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101862
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2465227"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a30e"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjACE"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "438.999849460908"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-1012.30000000013"^^xsd:double ;
+	props:Length "438.999849460908"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101871
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2465236"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a311"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjACH"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Invertelevation "-1012.30000000013"^^xsd:double ;
+	props:Length "3982.27352390714"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "3982.27352390714"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101879
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2465340"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a0f9"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA3v"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "3304.11118574801"^^xsd:double ;
+	props:Invertelevation "-838.500000000095"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Length "3304.11118574801"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101887
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2465492"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a011"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA0H"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "1018.36345341566"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "1018.36345341566"^^xsd:double ;
+	props:Invertelevation "-976.622034611182"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101897
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2465642"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a1af"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA6l"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "784.116425601016"^^xsd:double ;
+	props:Invertelevation "-802.822034611148"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Length "784.116425601016"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101907
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2465656"^^xsd:string ;
+	bot:hasGuid "a7373641da0e4d0b8bd12b7229b4a1bd"^^xsd:string ;
+	props:hasCompressedGuid "2dDpP1sWvD2ulHAt8fjA6z"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "419.636182542373"^^xsd:double ;
+	props:Invertelevation "-838.500000000093"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "419.636182542373"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101915
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:2485932"^^xsd:string ;
+	bot:hasGuid "a48dae5684ae409c92ec24b036cc1b7b"^^xsd:string ;
+	props:hasCompressedGuid "2aZQvMXAv0d9Bi9B0sp1jx"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "6192.11126634793"^^xsd:double ;
+	props:Invertelevation "-947.300000000093"^^xsd:double ;
+	props:Length "6192.11126634793"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101923
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3016365"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9186"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv66"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "304.170478176813"^^xsd:double ;
+	props:Length "304.170478176813"^^xsd:double ;
+	props:Invertelevation "-591.122034611145"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101932
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3016510"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9015"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv0L"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "295.425735283326"^^xsd:double ;
+	props:Length "295.425735283326"^^xsd:double ;
+	props:Invertelevation "-591.122034611229"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101941
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3016527"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db9064"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv1a"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "295.425735283257"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "295.425735283257"^^xsd:double ;
+	props:Invertelevation "-591.122034611148"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101951
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3016544"^^xsd:string ;
+	bot:hasGuid "fec5c1ee70d446d6b2affad9e6db904b"^^xsd:string ;
+	props:hasCompressedGuid "3_nS7kSDH6rhAl_jdcsv1B"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "297.952288860513"^^xsd:double ;
+	props:Length "297.952288860513"^^xsd:double ;
+	props:Invertelevation "-591.12203486253"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101962
+	a bot:Element ;
+	rdfs:label "Round Duct:LUKA_Verzinkt zaaglengte:3253589"^^xsd:string ;
+	bot:hasGuid "8fbdbbd0bfa344cba23948cb1ed49c81"^^xsd:string ;
+	props:hasCompressedGuid "2FlRlGlwD4ow8vICiUr9o1"^^xsd:string ;
+	props:Roughness "0.15"^^xsd:double ;
+	props:Manufacturer "Unspecified"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Reference "LUKA_Verzinkt zaaglengte"^^xsd:string ;
+	props:Length "3632.59745962155"^^xsd:double ;
+	props:Length "3632.59745962155"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101970
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3271809"^^xsd:string ;
+	bot:hasGuid "c6f5c8782ad942e4bc8b3f8dc414c93e"^^xsd:string ;
+	props:hasCompressedGuid "36zSXuAjb2vBoBFut45Ca_"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "34651.6827201633"^^xsd:double ;
+	props:Invertelevation "-3400.00000000042"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "34651.6827201633"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101978
+	a bot:Element ;
+	rdfs:label "Round Duct:DYKA AIR_Rond - 4,0m:3279318"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3a2b"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJeh"^^xsd:string ;
+	props:Roughness "0.01"^^xsd:double ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "133.681425196948"^^xsd:double ;
+	props:Length "133.681425196948"^^xsd:double ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101986
+	a bot:Element ;
+	rdfs:label "Round Duct:DYKA AIR_Rond - 4,0m:3279575"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d392a"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJag"^^xsd:string ;
+	props:Roughness "0.01"^^xsd:double ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "220.684427510176"^^xsd:double ;
+	props:Length "220.684427510176"^^xsd:double ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_101994
+	a bot:Element ;
+	rdfs:label "Round Duct:DYKA AIR_Rond - 4,0m:3279992"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3f85"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJ_5"^^xsd:string ;
+	props:Roughness "0.01"^^xsd:double ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "238.199999999998"^^xsd:double ;
+	props:Length "238.199999999998"^^xsd:double ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102003
+	a bot:Element ;
+	rdfs:label "Round Duct:DYKA AIR_Rond - 4,0m:3280181"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d3ec8"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFJx8"^^xsd:string ;
+	props:Roughness "0.01"^^xsd:double ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "230.199999999999"^^xsd:double ;
+	props:Length "230.199999999999"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Reference "DYKA AIR_Rond - 4,0m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102011
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3283131"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b46"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIj6"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Invertelevation "-289.906798935696"^^xsd:double ;
+	props:Length "33691.0"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "33691.0"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102019
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3283133"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b40"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIj0"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "285.682720163546"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "285.682720163546"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102027
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3283136"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b3d"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIiz"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "304.170478176813"^^xsd:double ;
+	props:Length "304.170478176813"^^xsd:double ;
+	props:Invertelevation "-591.122034611145"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102035
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3283196"^^xsd:string ;
+	bot:hasGuid "6c8991ef9b5f444c993c6324ce3d2b01"^^xsd:string ;
+	props:hasCompressedGuid "1iYP7lcrz4J9ayOoJEFIi1"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-626.800000000093"^^xsd:double ;
+	props:Length "2679.36544032709"^^xsd:double ;
+	props:Length "2679.36544032709"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102043
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3306807"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306efc"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6xy"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "806.115461258236"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-814.714788451285"^^xsd:double ;
+	props:Length "806.115461258236"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102052
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3306835"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306e98"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6wO"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Invertelevation "-988.301891043266"^^xsd:double ;
+	props:Length "1007.44126549567"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "1007.44126549567"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102061
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3307870"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc1117306295"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6AL"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "200.000000000001"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Invertelevation "-1012.30000000008"^^xsd:double ;
+	props:Length "200.000000000001"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102069
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3307909"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc111730624e"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC69E"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "6374.11126634793"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-767.400000000093"^^xsd:double ;
+	props:Length "6374.11126634793"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102077
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3308064"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc11173061eb"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC67h"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-838.500000000045"^^xsd:double ;
+	props:Length "418.000000000005"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Length "418.000000000005"^^xsd:double ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102085
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3308673"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc111730674a"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6TA"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:Length "7918.73347088822"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Length "7918.73347088822"^^xsd:double ;
+	props:Invertelevation "-838.500000000124"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102093
+	a bot:Element ;
+	rdfs:label "Pipe Types:DYKA PVC Binnenriolering_Ultra-3 5m:3308871"^^xsd:string ;
+	bot:hasGuid "b08006ee79c34d30b280fc111730668c"^^xsd:string ;
+	props:hasCompressedGuid "2mW0RkUSDDCBA0$14NC6QC"^^xsd:string ;
+	props:Manufacturer "DYKA"^^xsd:string ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Invertelevation "-1012.30000000016"^^xsd:double ;
+	props:Length "8253.37475927809"^^xsd:double ;
+	props:Length "8253.37475927809"^^xsd:double ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Reference "DYKA PVC Binnenriolering_Ultra-3 5m"^^xsd:string ;
+	props:Red "211"^^xsd:int ;
+	props:Green "211"^^xsd:int ;
+	props:Blue "211"^^xsd:int . 
+
+inst:element_102101
+	a bot:Element ;
+	rdfs:label "57_AIR_wall_diffuser_WUCK_return_Solid_Air:WUAA:2457384"^^xsd:string ;
+	bot:hasGuid "214ad53610054a49872c2f31cd4cac29"^^xsd:string ;
+	props:hasCompressedGuid "0XIjKs40LAIOSiBp7DJAmf"^^xsd:string ;
+	props:Manufacturer "Solid Air"^^xsd:string ;
+	props:Weight "0.0"^^xsd:double ;
+	props:AssemblyLevel "Single"^^xsd:string ;
+	props:Reference "WUAA"^^xsd:string ;
+	props:Reference "WUAA"^^xsd:string ;
+	props:Red "250"^^xsd:int ;
+	props:Green "255"^^xsd:int ;
+	props:Blue "255"^^xsd:int . 
+
