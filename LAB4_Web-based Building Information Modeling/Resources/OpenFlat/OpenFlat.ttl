@@ -1,4 +1,4 @@
-## This is the OpenFlat, an initiative by Alex Donkers. 
+﻿## This is the OpenFlat, an initiative by Alex Donkers. 
 ## The OpenFlat can be used by researchers. More data is available on http://github.com/AlexDonkers/OpenFlat.
 ## While the exact location cannot be shared due to GDPR-regulations, it is located in The Netherlands. Therefore, researchers can use average Dutch climate data.
 ## 
@@ -900,59 +900,3 @@ OF:flowterminal_5630b3e6-fb91-4ca6-905d-5e7761f4f320
 
 
 
-################################################################################################################################################################################################################################
-################################################################################################################################################################################################################################
-# SENSORS
-################################################################################################################################################################################################################################
-################################################################################################################################################################################################################################
-
-OF:SeeedGroveAirQualitySensorV1_3
-		a							mep:Sensor , mep:Sensor-CO2SENSOR , mep:Sensor-SMOKESENSOR , bot:Element , bop:FeatureOfInterest ;
-		
-		bpt:hasName					"SeeedGroveAirQualitySensorV1_3" ;
-		
-		bop:observes				OF:LivingRoomAirQuality ;
-		bop:isHostedBy				OF:KitchenTable .
-
-OF:SeeedTemperatureAndHumiditySensorDHT11
-		a							mep:Sensor , mep:Sensor-TEMPERATURESENSOR , mep:Sensor-HUMIDITYSENSOR , bot:Element , bop:FeatureOfInterest ;
-
-		bpt:hasName					"SeeedTemperatureAndHumiditySensorDHT11" ;
-		
-		bop:observes				OF:LivingRoomTemperature , OF:LivingRoomRelativeHumidity ;
-		bop:isHostedBy				OF:KitchenTable .
-
-
-
-################################################################################################################################################################################################################################
-################################################################################################################################################################################################################################
-# DYNAMIC PROPERTIES
-################################################################################################################################################################################################################################
-################################################################################################################################################################################################################################
-
-OF:LivingRoomTemperature
-		a							bop:Property , bpt:Temperature , quantitykind:Temperature ;
-		bop:isPropertyOf			OF:LivingRoom ;
-		bop:hasPropertyState		OF:LivingRoomTemperatureDataPoint .
-		
-OF:LivingRoomRelativeHumidity
-		a							bop:Property , bpt:RelativeHumidity , quantitykind:RelativeHumidity ;
-		bop:isPropertyOf			OF:LivingRoom ;
-		bop:hasPropertyState		OF:LivingRoomRelativeHumidityDataPoint .
-
-OF:LivingRoomAirQuality
-		a							bop:Property , bpt:AirQuality ;
-		bop:isPropertyOf			OF:LivingRoom ;
-		bop:hasPropertyState		OF:LivingRoomAirQualityDataPoint .
-
-
-
-################################################################################################################################################################################################################################
-################################################################################################################################################################################################################################
-# DATABASE
-################################################################################################################################################################################################################################
-################################################################################################################################################################################################################################
-
-OF:OpenFlatDB
-		a							bop:Database ;
-		bop:hasDataPoint			OF:LivingRoomTemperatureDataPoint , OF:LivingRoomRelativeHumidityDataPoint , OF:LivingRoomAirQualityDataPoint .	
