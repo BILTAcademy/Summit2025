@@ -1,15 +1,3 @@
-# Summit2025 LAB1: OpenBIM-based coordination and collaboration
-Description of LAB1
-
-## KLO 1 IFC: a common language 
-The student has a comprehensive understanding of the principles of OpenBIM and its main features.
-
-## KLO 2 OpenBIM coordination process
-The student has basic knowledge of setting up an OpenBIM coordination process.
-
-## KLO 3 OpenBIM collaboration concepts
-The student has a basic understanding of various collaboration workflows supported by OpenBIM.
-
-
-## Software requirements and download links
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:629a09c9b35e014c97a58e07fd407e028397881109e11df5dbe9b43bb93b4d9b
+size 532

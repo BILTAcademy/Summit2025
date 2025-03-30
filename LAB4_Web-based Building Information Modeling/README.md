@@ -1,15 +1,3 @@
-# Summit2025 LAB4: Web-based Building Information Modeling
-Description of LAB4
-
-## KLO 1 Understand the basics of semantic web technologies to represent building information in graphs
-Create a graph with building information
-
-## KLO 2 Create and use ontologies, introduction to the basics of querying via both SPARQL and large language models 
-Create an ontology and link this ontology to the graph 
-Perform multiple queries using SPARQL in a graph database 
-
-## KLO 3 Introduced to various example projects in which web-based BIM is applied
-Interact with the graph using large language models'
-
-## Software requirements and download links
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d639ed3f4d75c3b43cab2545151433b858b53fd40b17832d2223e563cb402f6
+size 6452
